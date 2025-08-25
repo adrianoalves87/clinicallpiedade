@@ -349,8 +349,8 @@ section {
   background: #1a73e8;
   color: white;
   text-align: center;
-  padding: 20px 10px;
-  margin-top: 50px;
+  padding: 00px 10px;
+  margin-top: 20px;
   font-size: 0.9rem;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -528,17 +528,6 @@ section {
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
 /* ======= Convênios ======= */
 .convenios {
   padding: 60px 0;
@@ -592,20 +581,6 @@ section {
     max-height: 60px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .about-content {
   display: flex;
