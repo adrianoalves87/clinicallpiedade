@@ -16,6 +16,44 @@ body {
   line-height: 1.6;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ===== NAVBAR ===== */
 .navbar {
   width: 100%;
@@ -311,11 +349,11 @@ section {
   background: #1a73e8;
   color: white;
   text-align: center;
-  padding: 00px 10px;
+  padding: 00px 1px;
   margin-top: 20px;
   font-size: 0.9rem;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-top-left-radius: 1px;
+  border-top-right-radius: 1px;
 }
 
 /* ===== ANIMAÇÕES ===== */
@@ -490,6 +528,17 @@ section {
   }
 }
 
+
+
+
+
+
+
+
+
+
+
+
 /* ======= Convênios ======= */
 .convenios {
   padding: 60px 0;
@@ -544,6 +593,20 @@ section {
   }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .about-content {
   display: flex;
   flex-direction: column; /* imagem em cima, texto embaixo */
@@ -562,4 +625,3 @@ section {
   margin: 10px 0;
   line-height: 1.6;
 }
-
