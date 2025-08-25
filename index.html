@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ClínicAll Saúde Integrada | Especialidades médicas em Jaboatão dos Guararapes</title>
+  <meta name="description" content="ClínicAll Saúde Integrada em Jaboatão dos Guararapes. Atendimento humanizado, diversas especialidades e convênios aceitos.">
+
+<link rel="stylesheet" href="./css.css">
+
+  <!-- OwlCarousel (opcional) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+
+  <!-- Ionicons -->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+  <!-- Botão de Scroll para o topo -->
+  <div class="scroll-up-btn" id="scrollUp">
+    <ion-icon name="chevron-up-outline" aria-hidden="true"></ion-icon>
+    <span class="sr-only">Voltar ao topo</span>
+  </div>
+
+  <!-- Navbar -->
+  <header class="navbar" id="navbar">
+    <div class="max-width nav-inner">
+      <div class="logo">
+        <a href="#home" aria-label="Ir para o início">ClínicAll <span>saúde integrada</span></a>
+      </div>
+
+      <!-- Botão hamburger -->
+      <button id="menuBtn" class="menu-btn" aria-label="Abrir/fechar menu">
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <!-- Menu -->
+      <nav class="menu" id="menu" aria-label="Principal">
+        <ul class="menu-list">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#services">Especialidades</a></li>
+          <li><a href="#convenios">Convênios</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Home -->
+  <section class="home" id="home">
+    <div class="max-width">
+      <div class="home-content">
+        <h1 class="text-2">Bem‑vindo à ClínicAll</h1>
+        <div class="text-3"><span class="typing"></span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre -->
+  <section class="about" id="about">
+    <div class="max-width">
+      <h2 class="title">Sobre Nós</h2>
+      <div class="about-content">
+        <img src="./clinicall piedade md.jpg" alt="Fachada da clínica" />
+        <div class="text-container">
+          <p>Somos uma clínica médica especializada em atendimento humanizado e de alta qualidade, com equipe multidisciplinar pronta para cuidar da sua saúde.</p>
+          <p>Oferecemos diversas especialidades para garantir cuidado completo para você e sua família.</p>
+        </div>
+      </div>
+
+      <!-- Cards de Missão, Valores e Visão -->
+      <div class="info-cards">
+        <article class="card reveal">
+          <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+          <h3>Missão</h3>
+          <p>Promover a saúde e a qualidade de vida com atendimento profissional, ético, humano e integrado.</p>
+        </article>
+        <article class="card reveal">
+          <ion-icon name="shield-checkmark-outline" aria-hidden="true"></ion-icon>
+          <h3>Valores</h3>
+          <ul>
+            <li>Compromisso com o paciente</li>
+            <li>Ética</li>
+            <li>Valorização do corpo clínico</li>
+            <li>Valorização e qualificação dos colaboradores</li>
+            <li>Transparência nos processos</li>
+            <li>Responsabilidade pelos resultados</li>
+          </ul>
+        </article>
+        <article class="card reveal">
+          <ion-icon name="eye-outline" aria-hidden="true"></ion-icon>
+          <h3>Visão</h3>
+          <p>Ser reconhecida como uma das melhores clínicas médicas integradas em Jaboatão dos Guararapes.</p>
+        </article>
+      </div>
+      <a href="#contact" class="btn-primary">Agende sua consulta</a>
+    </div>
+  </section>
+
+  <!-- Especialidades -->
+  <section class="services" id="services">
+    <div class="max-width">
+      <h2 class="title">Especialidades</h2>
+      <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Buscar especialidade..." aria-label="Buscar especialidade" />
+      </div>
+      <div class="serv-content">
+        <!-- Cards de especialidades (mesmo conteúdo original) -->
+        <div class="card reveal"><div class="box"><ion-icon name="medkit-outline"></ion-icon><div class="text">Alergologia</div></div></div>
+        <div class="card reveal"><div class="box"><ion-icon name="heart-outline"></ion-icon><div class="text">Cardiologia</div></div></div>
+        <div class="card reveal"><div class="box"><ion-icon name="heart-outline"></ion-icon><div class="text">Cardiologia Pediátrica</div></div></div>
+        <div class="card reveal"><div class="box"><ion-icon name="medkit-outline"></ion-icon><div class="text">Clínica Médica</div></div></div>
+        <div class="card reveal"><div class="box"><ion-icon name="bandage-outline"></ion-icon><div class="text">Cirurgia Bariátrica</div></div></div>
+        <div class="card reveal"><div class="box"><ion-icon name="bandage-outline"></ion-icon><div class="text">Cirurgia Oncológica</div></div></div>
+        <div class="card reveal"><div class="box"><ion-icon name="bandage-outline"></ion-icon><div class="text">Cirurgia Vascular</div></div></div>
+        <div class="card reveal"><div class="box"><ion-icon name="eyedrop-outline"></ion-icon><div class="text">Dermatologia</div></div></div>
+        <div class="card reveal"><div class="box"><ion-icon name="medkit-outline"></ion-icon><div class="text">Endocrinologia</div></div></div>
+        <div class="card reveal"><div class="box"><ion-icon name="bicycle-outline"></ion-icon><div class="text">Fisioterapia Motora</div></div></div>
+        <div class="card reveal"><div class="box"><ion-icon name="volume-high-outline"></ion-icon><div class="text">Fonoaudiologia</div></div></div>
+        <div class="card reveal"><div class="box"><ion-icon name="heart-outline"></ion-icon><div class="text">Gastroenterologia</div></div></div>
+        <div class="card reveal"><div class="box"><ion-icon name="woman-outline"></ion-icon><div class="text">Ginecologia</div></div></div>
+        <div class="card reveal"><div class="box"><ion-icon name="pulse-outline"></ion-icon><div class="text">Neurologia</div></div></div>
+        <div class="card reveal"><div class="box"><ion-icon name="nutrition-outline"></ion-icon><div class="text">Nutrição</div></div></div>
+        <div class="card reveal"><div class="box"><ion-icon name="bandage-outline"></ion-icon><div class="text">Oncologia</div></div></div>
+        <div class="card reveal"><div class="box"><ion-icon name="eye-outline"></ion-icon><div class="text">Oftalmologia</div></div></div>
+        <div class="card reveal"><div class="box"><ion-icon name="mic-outline"></ion-icon><div class="text">Otorrino</div></div></div>
+        <div class="card reveal"><div class="box"><ion-icon name="hand-left-outline"></ion-icon><div class="text">Ortopedia Mão</div></div></div>
+        <div class="card reveal"><div class="box"><ion-icon name="footsteps-outline"></ion-icon><div class="text">Ortopedia Pé</div></div></div>
+        <div class="card reveal"><div class="box"><ion-icon name="body-outline"></ion-icon><div class="text">Ortopedia Joelho</div></div></div>
+        <div class="card reveal"><div class="box"><ion-icon name="body-outline"></ion-icon><div class="text">Ortopedia Coluna</div></div></div>
+        <div class="card reveal"><div class="box"><ion-icon name="construct-outline"></ion-icon><div class="text">Terapia Ocupacional</div></div></div>
+        <div class="card reveal"><div class="box"><ion-icon name="cloud-outline"></ion-icon><div class="text">Pneumologia</div></div></div>
+        <div class="card reveal"><div class="box"><ion-icon name="people-outline"></ion-icon><div class="text">Pediatria</div></div></div>
+        <div class="card reveal"><div class="box"><ion-icon name="happy-outline"></ion-icon><div class="text">Psicologia</div></div></div>
+        <div class="card reveal"><div class="box"><ion-icon name="book-outline"></ion-icon><div class="text">Psicopedagogia</div></div></div>
+        <div class="card reveal"><div class="box"><ion-icon name="medkit-outline"></ion-icon><div class="text">Psiquiatria</div></div></div>
+        <div class="card reveal"><div class="box"><ion-icon name="male-outline"></ion-icon><div class="text">Proctologia</div></div></div>
+        <div class="card reveal"><div class="box"><ion-icon name="male-outline"></ion-icon><div class="text">Urologia</div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Convênios -->
+  <section class="convenios" id="convenios">
+    <div class="max-width">
+      <h2 class="title">Convênios</h2>
+      <div class="convenios-content">
+        <div class="convenio"><img src="./adufebe saude.png" alt="ADUFEPE Saúde"></div>
+        <div class="convenio"><img src="./amil.png" alt="Amil"></div>
+        <div class="convenio"><img src="./bradesco.png" alt="Bradesco Saúde"></div>
+        <!-- Exemplo corrigido para Came Saúde -->
+        <div class="convenio"><img src="./camed saude.png" alt="Camed Saúde"></div>
+        <div class="convenio"><img src="./cassi.png" alt="CASSI"></div>
+        <div class="convenio"><img src="./blue med.png" alt="Blue Med"></div>
+        <div class="convenio"><img src="./caem brasil.jpg" alt="Ceam Brasil"></div>
+        <div class="convenio"><img src="./compesaprevy.png" alt="CompesaPrev"></div>
+        <div class="convenio"><img src="./exmed.png" alt="Exmed"></div>
+        <div class="convenio"><img src="./fachef.png" alt="Fachesf"></div>
+        <div class="convenio"><img src="./fisco saude.jpg" alt="Fisco Saúde"></div>
+        <div class="convenio"><img src="./gama.png" alt="Gama"></div>
+        <div class="convenio"><img src="./QSaude.jpg" alt="QSAUDE"></div>
+   
+        <div class="convenio"><img src="./medservice.jpg" alt="MedService"></div>
+        <div class="convenio"><img src="./NotreDame Intermédica.png" alt="NotreDame Intermédica"></div>
+        <div class="convenio"><img src="./plano pb saude.png" alt="Planos PB"></div>
+        <div class="convenio"><img src="./postal saude.png" alt="Postal Saúde"></div>
+        <div class="convenio"><img src="./saude.png" alt="Saúde"></div>
+        <div class="convenio"><img src="./Stellantis Saúde.jpg" alt="./"></div>
+        <div class="convenio"><img src="./sulamerica.png" alt="SulAmérica"></div>
+        <div class="convenio"><img src="./select.webp" alt="Select"></div>
+        <div class="convenio"><img src="./unimed.png" alt="Unimed"></div>
+        <div class="convenio"><img src="./golden-cross.png" alt="Golden Cross"></div>
+      <div class="convenio"><img src="./aeronautica.jpg" alt="aeronáutica"></div>
+      <div class="convenio"><img src="./fundação assefaz.png" alt="fundação assefaz"></div>
+     <div class="convenio"><img src="./geap.png" alt="geap"></div>
+    
+    </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section class="contact" id="contact">
+    <div class="max-width">
+      <h2 class="title">Contato</h2>
+      <div class="column left">
+        <h3 class="text">Fale Conosco</h3>
+        <p>Estamos prontos para atender você. Agende sua consulta.</p>
+        <div class="icons">
+          <div class="row">
+            <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+            <div class="info">
+              <div class="head">Telefone</div>
+              <div class="sub-title">(81) 3468-1999</div>
+            </div>
+          </div>
+          <div class="row">
+            <ion-icon name="logo-whatsapp" aria-hidden="true"></ion-icon>
+            <div class="info">
+              <div class="head">WhatsApp</div>
+              <div class="sub-title">
+                <a href="https://wa.me/5581986864334" target="_blank">(81) 98686-4334</a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+            <div class="info">
+              <div class="head">Endereço</div>
+              <div class="sub-title">
+                Av. Ayrton Senna da Silva, 3835 – Piedade, Jaboatão dos Guararapes – PE
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+            <div class="info">
+              <div class="head">Email</div>
+              <div class="sub-title">
+                <a href="mailto:contato@clinicamedica.com">contato@clinicamedica.com</a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <ion-icon name="logo-instagram" aria-hidden="true"></ion-icon>
+            <div class="info">
+              <div class="head">Instagram</div>
+              <div class="sub-title">
+                <a href="https://www.instagram.com/clinicallatende" target="_blank">@clinicallatende</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="map-wrap">
+          <iframe
+            src="https://www.google.com/maps?q=Av.+Ayrton+Senna+da+Silva,+3835+-+Piedade,+Jaboat%C3%A3o+dos+Guararapes+-+PE,+54420-030&output=embed"
+            loading="lazy"
+            aria-label="Mapa do endereço da clínica">
+          </iframe>
+        </div>
+        <p class="cta-howto">
+          <a class="btn-primary" href="https://www.google.com/maps/dir/?api=1&destination=Av.+Ayrton+Senna+da+Silva,+3835+-+Piedade,+Jaboat%C3%A3o+dos+Guararapes+-+PE,+54420-030" target="_blank">Como chegar</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+
+  <script>
+    const navbar = document.getElementById('navbar');
+    const scrollUp = document.getElementById('scrollUp');
+    const menu = document.getElementById('menu');
+    const menuBtn = document.getElementById('menuBtn');
+
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('sticky', window.scrollY > 20);
+      scrollUp.classList.toggle('show', window.scrollY > 500);
+    });
+
+    scrollUp.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+    menuBtn.addEventListener('click', () => menu.classList.toggle('active'));
+    document.querySelectorAll('.menu a').forEach(link => {
+      link.addEventListener('click', e => {
+        const targetId = link.getAttribute('href');
+        if (targetId.startsWith('#')) {
+          e.preventDefault();
+          document.querySelector(targetId).scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+        document.querySelectorAll('.menu a').forEach(l => l.classList.remove('active'));
+        link.classList.add('active');
+        menu.classList.remove('active');
+      });
+    });
+
+    new Typed('.typing', {
+      strings: [
+        "Atendimento humanizado e de qualidade",
+        "Especialidades médicas integradas",
+        "Cuidando de você e de quem você ama"
+      ],
+      typeSpeed: 100,
+      backSpeed: 60,
+      loop: true
+    });
+
+    const searchInput = document.getElementById("searchInput");
+    const cards = [...document.querySelectorAll(".services .card")];
+    const originalCardHTML = cards.map(card => card.querySelector('.box').innerHTML);
+
+    function highlight(text, term) {
+      if (!term) return text;
+      const safe = term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      const re = new RegExp(`(${safe})`, 'gi');
+      return text.replace(re, '<mark class="hl">$1</mark>');
+    }
+
+    function filterCards() {
+      const query = searchInput.value.trim().toLowerCase();
+      cards.forEach((card, i) => {
+        card.querySelector('.box').innerHTML = originalCardHTML[i];
+        const text = card.innerText.toLowerCase();
+        const match = !query || text.includes(query);
+        card.style.display = match ? "block" : "none";
+        if (match && query) {
+          card.querySelector('.text').innerHTML = highlight(card.querySelector('.text').textContent, query);
+        }
+      });
+    }
+
+    searchInput.addEventListener("input", filterCards);
+
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15 });
+
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+  </script>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="max-width">
+      <p>&copy; 2025 ClínicAll Saúde Integrada. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>
